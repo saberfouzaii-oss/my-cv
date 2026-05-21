@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang=fr>
- <script>
-  if (window.location.search.indexOf('fbclid=') !== -1) {
-    var cleanUrl = window.location.protocol + '//' + window.location.host + window.location.pathname;
-    window.location.replace(cleanUrl);
-  }
- </script> 
+<script>
+        // Supprime proprement le traqueur Facebook (?fbclid=) et redirige vers le CV
+        var cleanUrl = window.location.protocol + '//' + window.location.host + '/My-cv/';
+        window.location.replace(cleanUrl);   
+</script>  
 <title>CV de saber fouzai</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
